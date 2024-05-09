@@ -65,7 +65,7 @@ export const Parent = () => {
   return (
     <>
       <div>Parent renders: {renderParent}</div>
-      <button className="btn btn-outline-primary" onClick={onClickRenderChildrenButton}>render children from parent</button>
+      {/* <button className="btn btn-outline-primary" onClick={onClickRenderChildrenButton}>render children from parent</button> */}
 
       <hr/>
 
