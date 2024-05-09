@@ -11,6 +11,7 @@ export const Parent = () => {
 
   useEffect(() => {
     console.log('useEffect parent');
+    setRenderParent(c => c + 1);
   }, []);
   
   useLayoutEffect(() => {
